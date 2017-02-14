@@ -1,0 +1,78 @@
+body {
+    background-color: #212121;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    padding-left: 10px;
+}
+
+#tagline {
+    margin-left: 130px;
+    font-size: 350%;
+    font-style: italic;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.clk {
+    font-size: 60px;
+    font-weight: lighter !important;
+    font-family: 'Josefin Sans', sans-serif;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.clk1 {
+    font-size: 65px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder !important;
+}
+
+.logo {
+    font-size: 400%;
+    font-family: 'Tangerine', sans-serif;
+    padding: 10px;
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 35px;
+    /*color: #ffdb34;
+    -webkit-box-shadow: 2px 0px 2px 1px rgba(255, 219, 52, 1);
+    -moz-box-shadow: 2px 0px 2px 1px rgba(255, 219, 52, 1);
+    box-shadow: 2px 0px 2px 1px rgba(255, 219, 52, 1);*/
+    color: white;
+    -webkit-box-shadow: 2px 0px 2px 1px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 2px 0px 2px 1px rgba(255, 255, 255, 1);
+    box-shadow: 2px 0px 2px 1px rgba(255, 255, 255, 1);
+}
+
+#headline {
+    padding-bottom: 20px;
+    padding-top: 35px;
+}
+
+#social {
+    padding-bottom: 40px;
+}
+
+#social>div {
+    border-right: 1px solid rgb(11, 126, 162);
+}
+
+#social>div>.btn {
+    font-size: 120%;
+}
+
+#social>div:last-child {
+    border-right: none;
+}
+
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.footer {
+    position: relative;
+    bottom: -100px;
+}
