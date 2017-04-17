@@ -1,5 +1,7 @@
 var app = angular.module('personalWebApp',['ngRoute']);
-
+app.config(['$locationProvider', function($locationProvider) {
+  $locationProvider.hashPrefix('');
+}]);
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
   .when("/about",{templateUrl :"../../templates/about.html", controller: "PageCtrl"})
