@@ -12,8 +12,6 @@
   "homepage": "https://arjith-natarajan.github.io",
   "ignore": [
     "**/.*",
-    "node_modules",
-    "bower_components",
     "test",
     "tests"
   ],
