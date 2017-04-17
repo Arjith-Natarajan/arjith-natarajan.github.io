@@ -1,4 +1,6 @@
 var app = angular.module('personalWebApp',['ngRoute']);
+
+// Handled HashBang ! issue by adding this snippet
 app.config(['$locationProvider', function($locationProvider) {
   $locationProvider.hashPrefix('');
 }]);
