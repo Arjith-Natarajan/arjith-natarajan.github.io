@@ -1,9 +1,28 @@
 body {
     overflow: hidden;
-    background-color: #212121;
+    background-image: url('../img/ep_naturalblack.png');
+    background-repeat: repeat;
+    background-attachment: scroll;
     font-family: 'Open Sans', sans-serif;
     color: white;
     padding-left: 10px;
+}
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  padding: 10px;
+
+}
+.page-scroll {
+  color: #dadada;
+  font-size: 17px;
+}
+
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
 }
 
 #tagline {
@@ -15,26 +34,26 @@ body {
 }
 
 .clk {
-    font-size: 60px;
+    /*font-size: 60px;*/
+    font-size: 200%;
     font-weight: lighter !important;
     font-family: 'Josefin Sans', sans-serif;
     text-shadow: 4px 4px 4px #aaa;
 }
 
 .clk1 {
-    font-size: 65px;
+    /*font-size: 65px;*/
+    font-size: 220%;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: bolder !important;
 }
 
 .logo {
-    font-size: 400%;
+    font-size: 180%;
+    height: 60px;
+    width : 60px;
     font-family: 'Tangerine', sans-serif;
-    padding: 10px;
-    width: 100px;
-    float: left;
     border-radius: 50%;
-    margin-right: 35px;
     /*color: #ffdb34;
     -webkit-box-shadow: 2px 0px 2px 1px rgba(255, 219, 52, 1);
     -moz-box-shadow: 2px 0px 2px 1px rgba(255, 219, 52, 1);
@@ -44,7 +63,10 @@ body {
     -moz-box-shadow: 2px 0px 2px 1px rgba(255, 255, 255, 1);
     box-shadow: 2px 0px 2px 1px rgba(255, 255, 255, 1);
 }
-
+.navbar-default .navbar-brand {
+  /*color: #0460d9;*/
+  color: #fff;
+}
 #headline {
     padding-bottom: 20px;
     padding-top: 35px;
