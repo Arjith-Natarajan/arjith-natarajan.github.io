@@ -53,6 +53,17 @@ Thumbs.db
 *.rar
 *.tar
 *.zip
+# testing
+/coverage
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+firefox_root/
 
 # -------------------------
 # BEGIN Whitelisted Files
